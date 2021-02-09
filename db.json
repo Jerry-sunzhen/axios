@@ -1,0 +1,34 @@
+{
+  "post": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "zhen"
+    },
+    {
+      "id": 2,
+      "title": "json-server2",
+      "author": "Jerry"
+    },
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "sun"
+    },
+    {
+      "id": "5",
+      "title": "test",
+      "author": "jerry"
+    }
+  ],
+  "comments": [
+    {
+      "id": 2,
+      "body": "comment1",
+      "postId": 3
+    }
+  ],
+  "profile": {
+    "name": "jerry"
+  }
+}

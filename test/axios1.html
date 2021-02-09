@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--<script src="../axios.js"></script>-->
+<script src="../myAxios.js"></script>
+<script>
+    axios({
+      method:'GET',
+      url:'http://localhost:3000/post',
+      params:{
+        id:1,
+        title:'json-server'
+      }
+    }).then(res=>{
+      console.log(res.data)
+    })
+
+    console.log(Array.prototype.slice.call({
+      0: 2,
+      1: 3,
+      length: 2
+    },0));
+</script>
+</body>
+</html>
